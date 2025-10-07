@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Sheep Quest YAY!!!</title>
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"+>
+
+    </script>
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
@@ -72,25 +77,53 @@
             4px 4px 0 #9c9c9c, /* Shadow for more depth */
             6px 6px 0 #777777; /* Adding a more subtle 3rd shadow layer */
         }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1 0 auto;
+        }
+
+        .footer {
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body>
-    <h1 class="gaytext">
-        <strong>
-            <a href="/">
-                <img src="/images/logosmall.png" alt="sheepquest yaknow" />
-            </a>    
-            Welcome to the Beautiful World of Sheepquest my friend!!
-        </strong>
-    </h1>
-    <h2 class="comic">
-        <div class="page-wrapper">
-            <a href="/" class="a1">Home</a>
-            <a href="/world" class="a1">The World</a>
-            <a href="/lambs" class="a1">Lambs</a>
-            <a href="/species" class="a1">Species</a>
-            <a href="/classes" class="a1">Classes</a>
-        </div>
-    </h2>
+    <div class="content">
+        <script>
+            window.addEventListener("load", (event) => {
+                new cursoreffects.rainbowCursor({
+                    length: 12,
+                    colors: ["#F87C63", "orange", "lightyellow", "lightgreen", "lightblue", "violet"],
+                    size: 4,
+                });
+            });</script>
+        <h1 class="gaytext">
+            <strong>
+                <a href="/">
+                    <img src="/images/logosmall.png" alt="sheepquest yaknow" />
+                </a>
+                Welcome to the Beautiful World of Sheepquest my friend!!
+            </strong>
+        </h1>
+        <h2 class="comic">
+            <div class="page-wrapper">
+                <a href="/" class="a1">Home</a>
+                <a href="/world" class="a1">The World</a>
+                <a href="/lambs" class="a1">Lambs</a>
+                <a href="/species" class="a1">Species</a>
+                <a href="/classes" class="a1">Classes</a>
+            </div>
+        </h2>
+    </div>
+    <footer class="footer">hi im footer nice 2 meet u !! :D</footer>
 </body>
 </html>

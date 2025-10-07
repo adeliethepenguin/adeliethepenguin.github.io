@@ -1,0 +1,7 @@
+# sheepsheepquest.quest
+<picture>
+    <source srcset="sheeppicmix1.gif" 
+    media="(prefers-reduced-motion: no-preference)">
+     <img src="sheeppicmix1.png" 
+    alt="Cute sheeps" />
+  </picture>

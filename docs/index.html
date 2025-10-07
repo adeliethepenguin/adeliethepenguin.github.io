@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Sheep Quest YAY!!!</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
     <style>
         .a1 {
             background-color: #E5A3AD;
@@ -22,22 +24,73 @@
             text-align: center;
             margin-top: 30px;
         }
+
+        .hi {
+            font-family: Arial;
+        }
+
+        .margarine-regular {
+            font-family: "Margarine", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .comic {
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+
+        .gaytext {
+            background: linear-gradient(90deg, red, orange, #FDDA0D, green, blue, indigo, violet);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-weight: bold;
+            font-size: 2.5vw;
+            text-align: center;
+            background-color: #ffffff;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), /* Subtle shadow */
+            8px 8px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger, but still soft */
+        }
+
+        .container p {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: rgba(0, 0, 0, 0.2);
+            font: 900 1.2em sans-serif;
+            text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+        }
+
+        .background-color {
+            background: linear-gradient(90deg, red,yellow,green,blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-weight: bold;
+            text-align: center;
+            background-color: #ffffff;
+            text-shadow: 2px 2px 0 #bcbcbc, /* Shadow for depth */
+            4px 4px 0 #9c9c9c, /* Shadow for more depth */
+            6px 6px 0 #777777; /* Adding a more subtle 3rd shadow layer */
+        }
     </style>
 </head>
 <body>
-    <h1>
+    <h1 class="gaytext">
         <strong>
             <a href="/">
                 <img src="/images/logosmall.png" alt="sheepquest yaknow" />
-            </a>
+            </a>    
+            Welcome to the Beautiful World of Sheepquest my friend!!
         </strong>
     </h1>
-    <div class="page-wrapper">
-        <a href="/" class="a1">Home</a>
-        <a href="/world" class="a1">The World</a>
-        <a href="/lambs" class="a1">Lambs</a>
-        <a href="/races" class="a1">Races</a>
-        <a href="/classes" class="a1">Classes</a>
-    </div>
+    <h2 class="comic">
+        <div class="page-wrapper">
+            <a href="/" class="a1">Home</a>
+            <a href="/world" class="a1">The World</a>
+            <a href="/lambs" class="a1">Lambs</a>
+            <a href="/races" class="a1">Races</a>
+            <a href="/classes" class="a1">Classes</a>
+        </div>
+    </h2>
 </body>
 </html>
